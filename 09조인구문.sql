@@ -48,7 +48,7 @@ SELECT * FROM INFO I FULL OUTER JOIN AUTH A ON I.AUTH_ID = A.AUTH_ID;
 SELECT * FROM INFO I CROSS JOIN AUTH A;
 
 ---------------------------------------------------------------
---SELF JOIN(하나의 테이블을 가지고 조인을 거는 것)
+--SELF JOIN(하나의 테이블을 가지고 조인을 거는 것) : 조건 테이블 안에 연결 가능한 키가 필요함
 SELECT * FROM EMPLOYEES;
 
 SELECT * 
